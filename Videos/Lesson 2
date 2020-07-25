@@ -1,21 +1,22 @@
-https://youtu.be/V__T6TEXobA - Lesson overview
-https://youtu.be/567-mVblChI - What is ML?
-https://youtu.be/IFqpMGZRaGc - Applications of ML
-https://youtu.be/cy6RinIoteM - Brief history of ML
-https://youtu.be/xX66AYbEJJY - The data science process
-https://youtu.be/11Hcp1ts494 - Common types of data
-https://youtu.be/BCl4VaChdPk - Tabular data
+https://youtu.be/V__T6TEXobA - Lesson overview                  -  
+https://youtu.be/567-mVblChI - What is ML?                      -  
+https://youtu.be/IFqpMGZRaGc - Applications of ML               - 
+https://youtu.be/cy6RinIoteM - Brief history of ML              - 
+https://youtu.be/xX66AYbEJJY - The data science process         - 
+https://youtu.be/11Hcp1ts494 - Common types of data             -  
+https://youtu.be/BCl4VaChdPk - Tabular data                     - 
 https://youtu.be/DBML5tG138I
-https://youtu.be/NyrL6ein-pw - Scaling data
-https://youtu.be/n2uIykJkJ44 - Encoding categorical data
+https://youtu.be/NyrL6ein-pw - Scaling data                    - standardization (mean 0, variance 1) (50,100,150 -> -1,0,1) and normalization (range 0-1) (50,100,150->0,.5,1)
+https://youtu.be/n2uIykJkJ44 - Encoding categorical data       - ordinal encoding, one hot encoding
 https://youtu.be/ZTID77K760Y - Image data
-https://youtu.be/Y5C-fVOEj8g - Text data - the whole pipeline
+https://youtu.be/Y5C-fVOEj8g - Text data - the whole pipeline  - normalization (to be, is, am, are) - also similar spellings, lemmatization - dictionary form of word, remove 
+                                                                 stop words (e.g. the), tokenizing text. Vectorization (TF-IDF, word2vec, GloVe) (===REVISIT===)
 https://youtu.be/-STuxIvMhHo - Two perspectives on ML
 https://youtu.be/4uHZkcRJ_J8 - The computer science perspective
 https://youtu.be/mRjQmAKpwgs - The statistical perspective
 https://youtu.be/jj_06syZGEg - The tools for ML
 https://youtu.be/M9zUzwhIto4 - Libraries
-https://youtu.be/YGssK4vvQak - Cloud Services
+https://youtu.be/YGssK4vvQak - Cloud Services                  - datasets, experiments/runs, pipelines, models, endpoints, compute, environments, datastores, automated ML, Designer
 https://youtu.be/e2-yhSuxVMQ
 https://youtu.be/rnKuhPp-9AU - Models vs algorithms
 https://youtu.be/RsQEl8zay3Y - Linear regression
@@ -26,3 +27,11 @@ https://youtu.be/2_JMdUc0D0c - Approaches to ML
 https://youtu.be/UC8i4--WQoA - The tradeoffs
 https://youtu.be/X1DotdITKyE
 https://youtu.be/Hoh74KrKh5k - Lesson summary
+
+When do you standardize and when do you normalize?
+Normalization is useful when your data has varying scales and the algorithm you are using does not make assumptions about the distribution of your data, 
+such as k-nearest neighbors and artificial neural networks.
+
+Standardization assumes that your data has a Gaussian (bell curve) distribution. This does not strictly have to be true, but the technique is more effective 
+if your attribute distribution is Gaussian. Standardization is useful when your data has varying scales and the algorithm you are using does make assumptions 
+about your data having a Gaussian distribution, such as linear regression, logistic regression, and linear discriminant analysis.
