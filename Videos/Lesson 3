@@ -1,0 +1,32 @@
+Lesson 3 - Model Training
+https://youtu.be/Z6qaUHwrklk  - Lesson Overview  - data import, transformation, datastores, datasets, versioning, feature engineering, monitoring data drift, 
+                                model training - classifier, regressor, ensemble, autoML
+https://youtu.be/2UF0Lo3NDt0  - Data import and transformation 
+https://youtu.be/b0J1SHbi9pE  - Managing data
+https://youtu.be/uUqlBoG0bPc  - Datastores vs datasets
+https://youtu.be/S98RHa5Eioc  - Data access workflow
+https://youtu.be/o5CIakh9Xtg  - More about datasets
+https://youtu.be/l8OetSHc754         - versioning
+https://youtu.be/aO2rp406n8A  - Introducing features
+https://youtu.be/j-b4K7KjEKA  - Feature engineeringhttps://youtu.be/rwvFVe3CbXs
+https://youtu.be/BTiJGJbMfbY         - examples of feature engineering tasks
+https://youtu.be/ecd3jvTdlGw         - summary of feature engineering approaches by data type
+https://youtu.be/A_2GRAhJrAs  - Feature selection 
+https://youtu.be/5umJYhVUKcw         - dimensionality reduction
+https://youtu.be/QIAiteCikwI  - Data drift
+https://youtu.be/lvs2_TL1sw8         - monitoring for data drift
+https://youtu.be/Ar9fKCgMT6A  - Model training basics
+https://youtu.be/lBXm8TmGqDA  - Model training in Azure ML
+https://youtu.be/D8Gw2Cbv2MY  - Taxonomy of Azure ML
+https://youtu.be/FyvqRyMoWRA  - Training classifiers
+https://youtu.be/qpmlvrQWZ6U  - Training regressors
+https://youtu.be/c_8sEPf0Cg0  - Evaluating model performance
+                              - Confusion matrices
+https://youtu.be/rwvFVe3CbXs  - Evaluation metrics for classification
+https://youtu.be/cEwPyC6pvAY  - Evaluation metrics for regression
+https://youtu.be/c9PdpRJ-djc  - Strength in numbers
+https://youtu.be/40iS8bfeFv8         - Ensemble learning
+https://youtu.be/msaXELuThsY         - AutoML
+                              - Train a two class boosted decision tree
+                              - Train a simple classifier with AutoML
+https://youtu.be/YV-WLroRscE  - Lesson summary
